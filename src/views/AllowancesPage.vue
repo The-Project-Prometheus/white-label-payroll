@@ -119,10 +119,6 @@ const toggleExpand = (id: number) => {
                         </span>
                       </div>
                     </div>
-                    <div v-if="a.minSG">
-                      <p class="mb-1 text-[10px] font-bold uppercase text-gray-400">Minimum Salary Grade</p>
-                      <span class="rounded bg-purple-100 px-2 py-0.5 text-[11px] font-medium text-purple-700">SG {{ a.minSG }}+</span>
-                    </div>
                   </div>
                 </div>
               </td>

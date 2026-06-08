@@ -144,9 +144,9 @@ const tabs = [
         <h3 class="mb-3 text-sm font-bold text-gray-900">Recent Backups</h3>
         <div class="space-y-2">
           <div v-for="(backup, i) in [
-            { file: 'senate_payroll_2026-05-20_0600.sql.gz', size: '142 MB', date: 'May 20, 2026 06:00' },
-            { file: 'senate_payroll_2026-05-19_0600.sql.gz', size: '141 MB', date: 'May 19, 2026 06:00' },
-            { file: 'senate_payroll_2026-05-18_0600.sql.gz', size: '140 MB', date: 'May 18, 2026 06:00' },
+            { file: 'company_payroll_2026-05-20_0600.sql.gz', size: '142 MB', date: 'May 20, 2026 06:00' },
+            { file: 'company_payroll_2026-05-19_0600.sql.gz', size: '141 MB', date: 'May 19, 2026 06:00' },
+            { file: 'company_payroll_2026-05-18_0600.sql.gz', size: '140 MB', date: 'May 18, 2026 06:00' },
           ]" :key="i" class="flex items-center justify-between border-b border-gray-50 py-2 last:border-0">
             <div>
               <p class="font-mono text-sm text-gray-900">{{ backup.file }}</p>

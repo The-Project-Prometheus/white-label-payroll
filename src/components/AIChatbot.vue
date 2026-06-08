@@ -20,7 +20,7 @@ const messages = ref<Message[]>([
   {
     id: 0,
     role: 'assistant',
-    content: "Hi! I'm the Senate Payroll Assistant. How can I help you?",
+    content: "Hi! I'm the Payroll Assistant. How can I help you?",
   },
 ])
 

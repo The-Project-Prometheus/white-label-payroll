@@ -23,7 +23,7 @@ const recentActivity = [
     <!-- Header -->
     <div>
       <h1 class="text-xl font-bold text-gray-900">Dashboard</h1>
-      <p class="mt-1 text-sm text-gray-500">Welcome to the Senate Payroll Management System</p>
+      <p class="mt-1 text-sm text-gray-500">Welcome to the Payroll Management System</p>
       <div class="mt-3 h-0.5 w-14 bg-amber-500"></div>
     </div>
 

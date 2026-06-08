@@ -28,8 +28,8 @@ const resources = [
   { id: 8, title: 'CSC MC 41, s.1998 — Omnibus Rules on Leave', category: 'CSC Circular', description: 'Leave types, earning rates, monetization rules, and terminal leave computation', uploadedBy: 'HR Admin', date: '2026-02-01' },
   { id: 9, title: 'BIR RR 29-2025 — De Minimis Benefits', category: 'BIR Regulation', description: 'Updated non-taxable de minimis benefit thresholds effective January 6, 2026', uploadedBy: 'HR Admin', date: '2026-01-10' },
   { id: 10, title: 'CSC-DBM JC No. 1, s. 2012 — Step Increments', category: 'Joint Circular', description: 'Rules on step increment based on length of service and meritorious performance', uploadedBy: 'Admin', date: '2026-01-15' },
-  { id: 11, title: 'Senate Leave Policy 2026', category: 'Internal Policy', description: 'Senate-specific leave policies including special leaves and monetization guidelines', uploadedBy: 'HR Head', date: '2026-03-01' },
-  { id: 12, title: 'Senate Overtime Authorization Guidelines', category: 'Internal Policy', description: 'Procedures for requesting and approving overtime work per EO 292', uploadedBy: 'HR Head', date: '2026-02-15' },
+  { id: 11, title: 'Company Leave Policy 2026', category: 'Internal Policy', description: 'Company-specific leave policies including special leaves and monetization guidelines', uploadedBy: 'HR Head', date: '2026-03-01' },
+  { id: 12, title: 'Overtime Authorization Guidelines', category: 'Internal Policy', description: 'Procedures for requesting and approving overtime work per EO 292', uploadedBy: 'HR Head', date: '2026-02-15' },
 ]
 
 const filtered = computed(() =>

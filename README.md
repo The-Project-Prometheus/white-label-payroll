@@ -1,6 +1,6 @@
-# Senate Payroll System — SPA Frontend
+# Payroll Management System — White Label
 
-Vue 3 + PrimeVue + TailwindCSS single-page application for the Philippine Senate Payroll System.
+Vue 3 + PrimeVue + TailwindCSS white-label payroll system SPA.
 
 ## Tech Stack
 
@@ -9,61 +9,35 @@ Vue 3 + PrimeVue + TailwindCSS single-page application for the Philippine Senate
 - **PrimeVue 3** — UI component library
 - **TailwindCSS** — utility-first CSS
 - **Pinia** — state management
-- **VueUse** — composables (including `useFetch` for API calls)
-- **Vue Router** — client-side routing with role-based guards
+- **VueUse** — composables
+- **Vue Router** — client-side routing with RBAC guards
 - **Vite** — build tool
-- **ApexCharts** — data visualization (Executive Dashboard)
 
 ## Getting Started
 
 ```bash
-# Install dependencies
 npm install
-
-# Start dev server
 npm run dev
-
-# Build for production
-npm run build:production
 ```
 
-## Project Structure
+## Demo Accounts
 
-```
-src/
-├── assets/css/          # Global styles, TailwindCSS imports
-├── components/          # Reusable Vue components
-│   ├── dashboard/       # Dashboard-specific components
-│   ├── layout/          # Layout shell (sidebar, header, etc.)
-│   ├── misc/            # Shared utility components
-│   └── webkit/          # Base webkit design system components
-├── composables/         # Vue composables
-│   └── api/             # API layer (one file per domain)
-├── plugins/             # Vue plugin registrations
-├── router/              # Vue Router with RBAC guards
-├── stores/              # Pinia stores
-├── typings/             # TypeScript type definitions
-├── utils/               # Helper functions
-└── views/               # Page-level components (one per route)
-```
-
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `VITE_APP_NAME` | Application display name |
-| `VITE_API_ROOT_URL` | Backend API base URL |
-| `VITE_APP_ENV` | Environment identifier |
+| Username | Password | Role |
+|---|---|---|
+| payroll | payroll | Payroll Manager |
+| hr | hr | HR Manager |
+| admin | admin | System Admin |
 
 ## Features
 
-- Employee management (CRUD, salary grade tracking)
+- Employee management (CRUD, pay grade tracking)
 - Payroll processing with approval workflow
-- Salary grades (SSL Tranche table)
-- Allowances management
-- Loan tracking & amortization
-- Leave management
-- Reports (Payslips, Register, BIR forms, Remittances)
-- Executive dashboard with charts
+- Salary grades (15 grades × 5 steps)
+- Allowances management (8 types)
+- Loan tracking (SSS, Pag-IBIG, Company)
+- Leave management (VL, SL, EL, ML, PL)
+- Reports (Payslips, Register, Remittance, BIR forms)
+- Executive dashboard with analytics
 - Audit logging
+- AI Payroll Assistant chatbot
 - Role-based access control (RBAC)

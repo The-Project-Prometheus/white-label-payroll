@@ -170,7 +170,7 @@ const statusConfig: Record<string, { color: string; bg: string }> = {
             v-for="(row, i) in [
               { month: 'January', benefit: 'Employee Wellness Assistance', amount: '1 Month Basic (min SG 19-1)', cutoff: 'In service Jan 31' },
               { month: 'February', benefit: 'Uniform Allowance', amount: '₱7,000', cutoff: 'In service Jan 31' },
-              { month: 'February', benefit: 'Senate Medical Assistance', amount: '₱100,000', cutoff: 'In service Jan 31' },
+              { month: 'February', benefit: 'Company Medical Assistance', amount: '₱100,000', cutoff: 'In service Jan 31' },
               { month: 'March', benefit: 'Educational Assistance', amount: '₱50,000', cutoff: 'In service Feb 28' },
               { month: 'May', benefit: 'Mid-Year Bonus', amount: '1 Month Basic', cutoff: '4 months aggregate' },
               { month: 'June', benefit: 'Mid-Year Rice Allowance', amount: '₱15,000', cutoff: '3 months actual' },

@@ -127,7 +127,7 @@ const handleSubmit = () => {
           </div>
           <div>
             <label class="mb-1 block text-xs font-bold text-gray-900">Email</label>
-            <input v-model="form.email" type="email" class="w-full rounded-md border border-gray-300 px-3 py-2 text-xs" placeholder="name@senate.gov.ph" />
+            <input v-model="form.email" type="email" class="w-full rounded-md border border-gray-300 px-3 py-2 text-xs" placeholder="name@company.com" />
           </div>
         </div>
       </div>

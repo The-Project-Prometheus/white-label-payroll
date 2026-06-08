@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const settings = ref([
-  { key: 'APP_NAME', value: 'Senate Payroll System', label: 'Application Name' },
+  { key: 'APP_NAME', value: 'Payroll System', label: 'Application Name' },
   { key: 'PERA_AMOUNT', value: '2000', label: 'PERA Monthly Amount (₱)' },
   { key: 'NTHP_MINIMUM', value: '5000', label: 'Net Take-Home Pay Minimum (₱)' },
   { key: 'SESSION_TIMEOUT', value: '300', label: 'Session Timeout (seconds)' },
